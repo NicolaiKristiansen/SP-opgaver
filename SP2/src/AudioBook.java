@@ -15,15 +15,15 @@ public class AudioBook extends Title {
     protected double calculateLiteraturePoints() {
         switch (getLiteratureType()){
             case "BI":
-                return 3;
+                return 1.5;
             case "TE":
-                return 3;
+                return 1.5;
             case "LYRIK":
-                return 6;
+                return 3;
             case "SKØN":
-                return 1.7;
+                return 0.85;
             case "FAG":
-                return 1;
+                return 0.5;
         }
         return 0;
     }
